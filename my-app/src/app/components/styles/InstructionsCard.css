@@ -1,0 +1,71 @@
+/* InstructionsCard.css */
+.instructions-card {
+    background-color: #e0f7fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 30px auto 0;
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  .instructions-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .instructions-card p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .instructions-card ul {
+    list-style-type: none; /* Remove bullet points */
+    padding-left: 0; /* Remove default left padding */
+    margin-left: 0; /* Remove default left margin */
+  }
+  
+  .instructions-card ul li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .instructions-card ul li strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .instructions-card {
+      padding: 15px;
+    }
+  
+    .instructions-card h2 {
+      font-size: 20px;
+    }
+  
+    .instructions-card p,
+    .instructions-card ul li {
+      font-size: 14px;
+    }
+  }
+
+  .dismiss-btn {
+    position: absolute;
+    top: 105px;
+    right: 250px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dismiss-btn:hover {
+    color: red;
+  }

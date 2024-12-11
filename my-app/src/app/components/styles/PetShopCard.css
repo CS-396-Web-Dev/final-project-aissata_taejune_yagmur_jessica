@@ -1,0 +1,75 @@
+.pet-shop-card {
+    width: 200px;
+    border: 1px solid rgba(175, 162, 154, 1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: rgba(204, 84, 110, 1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
+  
+  .pet-image {
+    width: 100%;
+    max-width: 120px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 8px;
+    border: 3px solid black;
+    background-color: white;
+  }
+  
+  .pet-shop-info h3 {
+    margin: 10px 0;
+    color: white;
+  }
+
+  .pet-shop-info h1 {
+    margin: 5px 0;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .buy-button {
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: rgba(245, 218, 168, 1);
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  .buy-button:hover {
+    background-color: rgba(15, 35, 27, 1);
+    color: white;
+  }
+  
+  .pet-shop-stats .stat {
+    margin-bottom: 10px;
+  }
+  
+  .pet-shop-stats label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .pet-shop-stats progress {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .pet-shop-stats span {
+    font-size: 14px;
+    display: block;
+    text-align: center;
+  }
+  

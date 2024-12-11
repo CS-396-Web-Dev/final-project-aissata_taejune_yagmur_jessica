@@ -1,0 +1,19 @@
+{
+  "name": "final-project-aissata_taejune_yagmur_jessica",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "C:\\Users\\Aissa\\OneDrive\\Documents\\GitHub\\final-project-aissata_taejune_yagmur_jessica"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
